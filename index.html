@@ -15,41 +15,55 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <div class="container-fluid main-container">
-                                                       <!-- ____NAVBAR_____ -->
-    <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="./Assets/Logo.png" height="100" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto ">
-              <li class="nav-item">
-                <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="#">Wisdom Weavers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="#">Get Involved</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Company
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Blog</a></li>
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
-                  <li><a class="dropdown-item" href="#">Contact us</a></li>
-                </ul>
-              </li>
-            </ul>
+ <!-- ____NAVBAR_____ -->
+ <nav class="navbar navbar-expand-lg navbar-light my-navbar" style="background-color:white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html"><img class="logo-image" src="./Assets/Logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <div class="h6 nav-link me-4 active" aria-current="page" href="#">Home</div>
+        </li>
+        <li class="nav-item">
+          <div class="h6 nav-link me-4" href="#">Wisdom Weavers</div>
+        </li>
+        <li class="nav-item">
+          <div class="h6 nav-link me-4">Get Involved</div>
+        </li>
+        <li class="nav-item dropdown">
+          <div class="h6 nav-link me-4 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
           </div>
-        </div>
-      </nav>
-</div>    
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Our Story</a></li>
+            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
+<!-- HERO_IMAGE -->
+
+<div class="container-fluid hero-container">
+  <br><br><br>
+  <div class="row main-row">
+    <div class="col">
+      <div class="h2">HONEY DIGITAL LIBRARY</div>
+    </div>
+  </div>
+  <div class="row secondary-row">
+    <div class="col">
+      <div class="h3">A hub of knowledge for transformation</div>
+    </div>
+  </div>
+</div>
+
+</div>    
     
 </body>
 </html>
