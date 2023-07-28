@@ -1,3 +1,4 @@
+/* NAVBAR__ */
 .main-container {
   margin: 0;
   padding: 0;
@@ -39,10 +40,9 @@
   margin-left: 10px;
   margin-top: 6px;
 }
-.hero-image{
-  height: 200px;
-  width: 100%;
-}
+
+/* Hero_IMAGE AND CONTENT */
+
 .hero-container{
   margin: 0;
   padding: 0;
@@ -67,7 +67,7 @@
   justify-content: center;
 }
 
-
+/* MY_SMEXY_CARDS */
 
 #cards_landscape_wrap-2 {
   text-align: center;
