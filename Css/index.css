@@ -60,6 +60,9 @@
   text-align: center;
   margin-top: 60px;
 }
+.browse-text-color{
+  color: rgb(0, 0, 131);
+}
 .main-para{
   margin-top: 17px;
   margin-left: 20%;
