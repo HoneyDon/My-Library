@@ -41,3 +41,79 @@
     margin-left: 10px;
     margin-top: 6px;
   }
+
+/* Hero_IMAGE AND CONTENT */
+  
+  .hero-container{
+    margin: 0;
+    padding: 0;
+    margin-top: 120px;
+    background-image: url(../Assets/getinvolved-main-image.jpg);
+    height: 195px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+    
+  }
+  .main-content{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .browse-text-color{
+    color: rgb(0, 0, 131);
+  }
+  .main-para{
+    margin-top: 17px;
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+  .p{
+    text-align: left;
+    justify-content: center;
+  }
+
+  .signup-button{
+   margin-top: 30px;
+   margin-bottom: 65px;
+   border-radius: 35px;
+   padding-left: 32px;
+   padding-right: 32px;
+   padding-top: 10px;
+   padding-bottom: 10px; 
+  }
+
+  .button-heading-content{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  @media screen and (max-width: 580px) {
+    .hero-container{
+      height: 350px;
+    }
+    .main-para{
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+    .button-heading-content{
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+  }
+  
+  @media screen and (min-width: 600px) and (max-width: 850px){
+    .hero-container{
+      height: 280px;
+    }
+    .main-para{
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    .button-heading-content{
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+  } 
