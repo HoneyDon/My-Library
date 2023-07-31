@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-  }
+    font-family: 'Montserrat', sans-serif;
   
   @media screen and (min-width: 992px) {
     .navbar {
@@ -63,6 +63,7 @@
 }
 .browse-text-color{
   color: rgb(0, 0, 131);
+  font-weight: 750;
 }
 .main-para{
   margin-top: 17px;
@@ -95,5 +96,5 @@
 }
 
 .my-footer-stylez{
-  margin-top: 72px;
+  margin-top: 32px;
 }

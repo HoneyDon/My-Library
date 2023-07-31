@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
   }
   
   @media screen and (min-width: 992px) {
@@ -63,6 +64,7 @@
 
 .browse-text-color{
   color: rgb(0, 0, 131);
+  font-weight: 750;
 }
 .main-para{
   margin-top: 17px;
